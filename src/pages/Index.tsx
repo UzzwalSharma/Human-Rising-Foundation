@@ -45,18 +45,18 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-br from-indigo-500 to-teal-500 rounded-full flex items-center justify-center">
                 <Heart className="w-6 h-6 text-white" />
               </div>
-              <span className="text-2xl font-bold text-gray-800">Human Rising Foundation</span>
+              <span className="text-2xl font-bold text-slate-800">Human Rising Foundation</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#about" className="text-gray-600 hover:text-orange-500 transition-colors">About Us</a>
-              <a href="#services" className="text-gray-600 hover:text-orange-500 transition-colors">What We Do</a>
-              <a href="#gallery" className="text-gray-600 hover:text-orange-500 transition-colors">Gallery</a>
-              <a href="#testimonials" className="text-gray-600 hover:text-orange-500 transition-colors">Testimonials</a>
-              <a href="#contact" className="text-gray-600 hover:text-orange-500 transition-colors">Contact</a>
-              <Button onClick={handleDonate} className="bg-orange-500 hover:bg-orange-600 text-white">
+              <a href="#about" className="text-slate-600 hover:text-teal-600 transition-colors">About Us</a>
+              <a href="#services" className="text-slate-600 hover:text-teal-600 transition-colors">What We Do</a>
+              <a href="#gallery" className="text-slate-600 hover:text-teal-600 transition-colors">Gallery</a>
+              <a href="#testimonials" className="text-slate-600 hover:text-teal-600 transition-colors">Testimonials</a>
+              <a href="#contact" className="text-slate-600 hover:text-teal-600 transition-colors">Contact</a>
+              <Button onClick={handleDonate} className="bg-indigo-600 hover:bg-teal-600 text-white">
                 Donate Now
               </Button>
             </div>
@@ -65,23 +65,23 @@ const Index = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-orange-50 to-blue-50 py-20">
+      <section className="bg-gradient-to-br from-indigo-50 to-teal-50 py-20">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-6">
-                Empowering Communities, 
-                <span className="text-orange-500"> Changing Lives</span>
+              <h1 className="text-5xl md:text-6xl font-bold text-slate-800 mb-6">
+                Creating Hope, One Life at a Time
+<span className="text-teal-600">Together, we rise.</span>
               </h1>
-              <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+              <p className="text-xl text-slate-600 mb-8 leading-relaxed">
                 At Human Rising Foundation, we believe every individual deserves recognition, opportunity, and hope. 
                 We work tirelessly to uplift communities through education, healthcare, and sustainable development programs.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button onClick={handleDonate} size="lg" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3">
+                <Button onClick={handleDonate} size="lg" className="bg-indigo-600 hover:bg-teal-600 text-white px-8 py-3">
                   Donate Now
                 </Button>
-                <Button variant="outline" size="lg" className="border-orange-500 text-orange-500 hover:bg-orange-50 px-8 py-3">
+                <Button variant="outline" size="lg" className="border-teal-600 text-teal-600 hover:bg-teal-50 px-8 py-3">
                   Get Involved
                 </Button>
               </div>
@@ -94,12 +94,12 @@ const Index = () => {
               />
               <div className="absolute -bottom-4 -left-4 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                    <Users className="w-6 h-6 text-orange-500" />
+                  <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center">
+                    <Users className="w-6 h-6 text-indigo-600" />
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-800">50,000+</p>
-                    <p className="text-sm text-gray-600">Lives Impacted</p>
+                    <p className="font-semibold text-slate-800">50,000+</p>
+                    <p className="text-sm text-slate-600">Lives Impacted</p>
                   </div>
                 </div>
               </div>
@@ -112,8 +112,8 @@ const Index = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">Our Mission</h2>
-            <p className="text-xl text-gray-600 leading-relaxed">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-8">Our Mission</h2>
+            <p className="text-xl text-slate-600 leading-relaxed">
               To create sustainable change in underserved communities by providing access to education, 
               healthcare, and economic opportunities. We believe in empowering individuals to build 
               better futures for themselves and their families, fostering dignity and self-reliance.
@@ -123,28 +123,28 @@ const Index = () => {
       </section>
 
       {/* About Us */}
-      <section id="about" className="py-20 bg-gray-200">
+      <section id="about" className="py-20 bg-slate-100">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-gray-800 mb-6">About Human Rising Foundation</h2>
-              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+              <h2 className="text-4xl font-bold text-slate-800 mb-6">About Human Rising Foundation</h2>
+              <p className="text-lg text-slate-600 mb-6 leading-relaxed">
                 Founded with the vision of giving every person their rightful identity and place in society, 
                 Human Rising Foundation has been working for over a decade to transform lives across India.
               </p>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                 Our name "Human Rising Foundation" reflects our core belief that every individual 
                 deserves recognition, respect, and the opportunity to thrive. We work at the grassroots level, 
                 partnering with local communities to create lasting change.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-                  <p className="text-3xl font-bold text-orange-500">15+</p>
-                  <p className="text-gray-600">Years of Service</p>
+                  <p className="text-3xl font-bold text-indigo-500">15+</p>
+                  <p className="text-slate-600">Years of Service</p>
                 </div>
                 <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-                  <p className="text-3xl font-bold text-orange-500">200+</p>
-                  <p className="text-gray-600">Volunteers</p>
+                  <p className="text-3xl font-bold text-indigo-500">200+</p>
+                  <p className="text-slate-600">Volunteers</p>
                 </div>
               </div>
             </div>
@@ -163,8 +163,8 @@ const Index = () => {
       <section id="services" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-800 mb-6">What We Do</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold text-slate-800 mb-6">What We Do</h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Our comprehensive programs address the root causes of poverty and inequality, 
               creating sustainable solutions for lasting change.
             </p>
@@ -173,13 +173,13 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
               <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <GraduationCap className="w-8 h-8 text-orange-500" />
+                <div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <GraduationCap className="w-8 h-8 text-indigo-600" />
                 </div>
-                <CardTitle className="text-xl text-gray-800">Education & Skill Development</CardTitle>
+                <CardTitle className="text-xl text-slate-800">Education & Skill Development</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-gray-600 leading-relaxed">
+                <CardDescription className="text-slate-600 leading-relaxed">
                   Providing quality education, vocational training, and digital literacy programs 
                   to empower individuals with knowledge and skills for better opportunities.
                 </CardDescription>
@@ -188,13 +188,13 @@ const Index = () => {
 
             <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
               <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Heart className="w-8 h-8 text-blue-500" />
+                <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Heart className="w-8 h-8 text-teal-600" />
                 </div>
-                <CardTitle className="text-xl text-gray-800">Healthcare & Wellness</CardTitle>
+                <CardTitle className="text-xl text-slate-800">Healthcare & Wellness</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-gray-600 leading-relaxed">
+                <CardDescription className="text-slate-600 leading-relaxed">
                   Ensuring access to basic healthcare services, health awareness programs, 
                   and preventive care to build healthier communities.
                 </CardDescription>
@@ -203,13 +203,13 @@ const Index = () => {
 
             <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
               <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Utensils className="w-8 h-8 text-green-500" />
+                <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Utensils className="w-8 h-8 text-yellow-400" />
                 </div>
-                <CardTitle className="text-xl text-gray-800">Food & Nutrition</CardTitle>
+                <CardTitle className="text-xl text-slate-800">Food & Nutrition</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-gray-600 leading-relaxed">
+                <CardDescription className="text-slate-600 leading-relaxed">
                   Fighting hunger through food distribution programs, nutrition education, 
                   and sustainable farming initiatives in underserved communities.
                 </CardDescription>
@@ -220,11 +220,11 @@ const Index = () => {
       </section>
 
       {/* Gallery/Impact Section */}
-      <section id="gallery" className="py-20 bg-gray-50">
+      <section id="gallery" className="py-20 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Impact in Action</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold text-slate-800 mb-6">Our Impact in Action</h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               See how we're making a difference in communities across the region through our various programs and initiatives.
             </p>
           </div>
@@ -285,8 +285,8 @@ const Index = () => {
       <section id="testimonials" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-800 mb-6">What People Say</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold text-slate-800 mb-6">What People Say</h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Hear from the people whose lives have been transformed through our programs.
             </p>
           </div>
@@ -294,17 +294,17 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Card className="border-0 shadow-lg">
               <CardContent className="p-8">
-                <p className="text-gray-600 mb-6 leading-relaxed italic">
+                <p className="text-slate-600 mb-6 leading-relaxed italic">
                   "Human Rising Foundation's vocational training program gave me the skills I needed to start my own tailoring business. 
                   Now I can support my family and have gained confidence I never had before."
                 </p>
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-orange-200 rounded-full flex items-center justify-center mr-4">
-                    <span className="text-orange-600 font-semibold">P</span>
+                  <div className="w-12 h-12 bg-indigo-200 rounded-full flex items-center justify-center mr-4">
+                    <span className="text-indigo-600 font-semibold">P</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-800">Priya Sharma</p>
-                    <p className="text-sm text-gray-600">Skill Development Program Beneficiary</p>
+                    <p className="font-semibold text-slate-800">Priya Sharma</p>
+                    <p className="text-sm text-slate-600">Skill Development Program Beneficiary</p>
                   </div>
                 </div>
               </CardContent>
@@ -312,17 +312,17 @@ const Index = () => {
 
             <Card className="border-0 shadow-lg">
               <CardContent className="p-8">
-                <p className="text-gray-600 mb-6 leading-relaxed italic">
+                <p className="text-slate-600 mb-6 leading-relaxed italic">
                   "The healthcare camp organized by Human Rising Foundation in our village was a blessing. 
                   Free medical checkups and medicines helped so many families who couldn't afford treatment."
                 </p>
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-blue-200 rounded-full flex items-center justify-center mr-4">
-                    <span className="text-blue-600 font-semibold">R</span>
+                  <div className="w-12 h-12 bg-teal-200 rounded-full flex items-center justify-center mr-4">
+                    <span className="text-teal-600 font-semibold">R</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-800">Rajesh Kumar</p>
-                    <p className="text-sm text-gray-600">Village Volunteer</p>
+                    <p className="font-semibold text-slate-800">Rajesh Kumar</p>
+                    <p className="text-sm text-slate-600">Village Volunteer</p>
                   </div>
                 </div>
               </CardContent>
@@ -332,7 +332,7 @@ const Index = () => {
       </section>
 
       {/* Donation Section */}
-      <section className="py-20 bg-gradient-to-br from-orange-500 to-orange-600 text-white">
+      <section className="py-20 bg-gradient-to-br from-indigo-500 to-teal-500 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-6">Make a Difference Today</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
@@ -358,7 +358,7 @@ const Index = () => {
           <Button 
             onClick={handleDonate}
             size="lg" 
-            className="bg-white text-orange-500 hover:bg-gray-100 px-12 py-4 text-lg font-semibold"
+            className="bg-white text-teal-600 hover:bg-slate-100 px-12 py-4 text-lg font-semibold"
           >
             Donate Now
           </Button>
@@ -366,44 +366,44 @@ const Index = () => {
       </section>
 
       {/* Contact Form */}
-      <section id="contact" className="py-20 bg-gray-50">
+      <section id="contact" className="py-20 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <div>
-              <h2 className="text-4xl font-bold text-gray-800 mb-6">Get In Touch</h2>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              <h2 className="text-4xl font-bold text-slate-800 mb-6">Get In Touch</h2>
+              <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                 Whether you want to volunteer, partner with us, or learn more about our work, 
                 we'd love to hear from you. Together, we can create positive change.
               </p>
               
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                    <Phone className="w-6 h-6 text-orange-500" />
+                  <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center">
+                    <Phone className="w-6 h-6 text-indigo-600" />
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-800">Phone</p>
-                    <p className="text-gray-600">+91 98765 43210</p>
+                    <p className="font-semibold text-slate-800">Phone</p>
+                    <p className="text-slate-600">+91 98765 43210</p>
                   </div>
                 </div>
                 
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                    <Mail className="w-6 h-6 text-orange-500" />
+                  <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center">
+                    <Mail className="w-6 h-6 text-indigo-600" />
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-800">Email</p>
-                    <p className="text-gray-600">contact@humanrisingfoundation.org</p>
+                    <p className="font-semibold text-slate-800">Email</p>
+                    <p className="text-slate-600">contact@humanrisingfoundation.org</p>
                   </div>
                 </div>
                 
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                    <MapPin className="w-6 h-6 text-orange-500" />
+                  <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center">
+                    <MapPin className="w-6 h-6 text-indigo-600" />
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-800">Address</p>
-                    <p className="text-gray-600">123 Community Center, Delhi, India</p>
+                    <p className="font-semibold text-slate-800">Address</p>
+                    <p className="text-slate-600">123 Community Center, Delhi, India</p>
                   </div>
                 </div>
               </div>
@@ -411,7 +411,7 @@ const Index = () => {
 
             <Card className="border-0 shadow-lg">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-800">Send us a Message</CardTitle>
+                <CardTitle className="text-2xl text-slate-800">Send us a Message</CardTitle>
                 <CardDescription>
                   Fill out the form below and we'll get back to you as soon as possible.
                 </CardDescription>
@@ -419,7 +419,7 @@ const Index = () => {
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
-                    <Label htmlFor="name" className="text-sm font-medium text-gray-700">Name *</Label>
+                    <Label htmlFor="name" className="text-sm font-medium text-slate-700">Name *</Label>
                     <Input
                       id="name"
                       name="name"
@@ -433,7 +433,7 @@ const Index = () => {
                   </div>
                   
                   <div>
-                    <Label htmlFor="email" className="text-sm font-medium text-gray-700">Email *</Label>
+                    <Label htmlFor="email" className="text-sm font-medium text-slate-700">Email *</Label>
                     <Input
                       id="email"
                       name="email"
@@ -447,7 +447,7 @@ const Index = () => {
                   </div>
                   
                   <div>
-                    <Label htmlFor="phone" className="text-sm font-medium text-gray-700">Phone</Label>
+                    <Label htmlFor="phone" className="text-sm font-medium text-slate-700">Phone</Label>
                     <Input
                       id="phone"
                       name="phone"
@@ -460,7 +460,7 @@ const Index = () => {
                   </div>
                   
                   <div>
-                    <Label htmlFor="message" className="text-sm font-medium text-gray-700">Message *</Label>
+                    <Label htmlFor="message" className="text-sm font-medium text-slate-700">Message *</Label>
                     <Textarea
                       id="message"
                       name="message"
@@ -478,12 +478,12 @@ const Index = () => {
                       checked={formData.wantToVolunteer}
                       onCheckedChange={handleVolunteerChange}
                     />
-                    <Label htmlFor="volunteer" className="text-sm text-gray-700 cursor-pointer">
+                    <Label htmlFor="volunteer" className="text-sm text-slate-700 cursor-pointer">
                       I want to volunteer with Human Rising Foundation
                     </Label>
                   </div>
                   
-                  <Button type="submit" className="w-full bg-orange-500 hover:bg-orange-600 text-white">
+                  <Button type="submit" className="w-full bg-teal-600 hover:bg-teal-700 text-white">
                     Send Message
                   </Button>
                 </form>
@@ -497,15 +497,15 @@ const Index = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-800 mb-6">Find Us</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold text-slate-800 mb-6">Find Us</h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Visit our office in Ghaziabad, Uttar Pradesh to learn more about our work 
               and how you can get involved in our mission.
             </p>
           </div>
           
           <div className="max-w-4xl mx-auto">
-            <div className="bg-gray-100 rounded-2xl overflow-hidden shadow-lg">
+            <div className="bg-slate-100 rounded-2xl overflow-hidden shadow-lg">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.48129308143!2d77.26687534726562!3d28.669855582031946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb159414d44d%3A0x2b50108264c59c89!2sGhaziabad%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1735806806174!5m2!1sen!2sin"
                 width="100%"
@@ -520,9 +520,9 @@ const Index = () => {
             </div>
             
             <div className="mt-8 text-center">
-              <div className="flex items-center justify-center space-x-4 text-gray-600">
+              <div className="flex items-center justify-center space-x-4 text-slate-600">
                 <div className="flex items-center space-x-2">
-                  <MapPin className="w-5 h-5 text-orange-500" />
+                  <MapPin className="w-5 h-5 text-teal-600" />
                   <span>Ghaziabad, Uttar Pradesh, India</span>
                 </div>
               </div>
@@ -532,24 +532,24 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-12">
+      <footer className="bg-slate-800 text-white py-12">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
+                <div className="w-8 h-8 bg-teal-600 rounded-full flex items-center justify-center">
                   <Heart className="w-5 h-5 text-white" />
                 </div>
                 <span className="text-xl font-bold">Human Rising Foundation</span>
               </div>
-              <p className="text-gray-400 leading-relaxed">
+              <p className="text-slate-400 leading-relaxed">
                 Empowering communities and changing lives through sustainable development programs.
               </p>
             </div>
             
             <div>
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-              <ul className="space-y-2 text-gray-400">
+              <ul className="space-y-2 text-slate-400">
                 <li><a href="#about" className="hover:text-white transition-colors">About Us</a></li>
                 <li><a href="#services" className="hover:text-white transition-colors">What We Do</a></li>
                 <li><a href="#gallery" className="hover:text-white transition-colors">Gallery</a></li>
@@ -559,7 +559,7 @@ const Index = () => {
             
             <div>
               <h3 className="text-lg font-semibold mb-4">Get Involved</h3>
-              <ul className="space-y-2 text-gray-400">
+              <ul className="space-y-2 text-slate-400">
                 <li><a href="#" className="hover:text-white transition-colors">Volunteer</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Donate</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Partner</a></li>
@@ -569,7 +569,7 @@ const Index = () => {
             
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
-              <div className="space-y-2 text-gray-400">
+              <div className="space-y-2 text-slate-400">
                 <p>123 Community Center</p>
                 <p>Ghaziabad, India</p>
                 <p>+91 98765 43210</p>
@@ -578,7 +578,7 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+          <div className="border-t border-slate-700 mt-8 pt-8 text-center text-slate-400">
             <p>&copy; 2025 Human Rising Foundation. All rights reserved. Made with ❤️ for a better tomorrow.</p>
           </div>
         </div>
@@ -589,7 +589,7 @@ const Index = () => {
         href="https://wa.me/7505699999"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 rounded-full shadow-lg p-4 flex items-center justify-center transition-colors animate-bounce"
+        className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-700 rounded-full shadow-lg p-4 flex items-center justify-center transition-colors animate-bounce"
         aria-label="Chat on WhatsApp"
       >
         <svg
